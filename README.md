@@ -3,11 +3,11 @@ This is a TensorFlow implementation of the Generating Privacy Graph Embedding.
 
 
 ## Requirements
-TensorFlow 1.8.0
-python 3.5
-scikit-learn
-scipy
-numpy
+*TensorFlow 1.8.0
+*python 3.5
+*scikit-learn
+*scipy
+*numpy
 
 ## Run the demo
 
