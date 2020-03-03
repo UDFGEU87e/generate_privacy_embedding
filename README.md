@@ -2,19 +2,20 @@ This is a TensorFlow implementation of the Generating Privacy Graph Embedding.
 
 We borrowed part of code from T. N. Kipf, M. Welling, Variational Graph Auto-Encoders [https://github.com/tkipf/gae].
 
-Requirements
+##Requirements
 TensorFlow 1.8.0
 python 3.5
 scikit-learn
 scipy
 numpy
-Run the demo
-train the model and predict utility and private attribute
 
+##Run the demo
+
+'''
 python privacy_emb.py -dataset rochester -model APGE
+'''
 
-
-Data
+##Data
 In order to use your own data, you have to provide
 
 an N by N adjacency matrix (N is the number of nodes), such as ./data/yale_adj.pkl
